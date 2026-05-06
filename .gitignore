@@ -1,0 +1,61 @@
+# =========================
+# Python / uv
+# =========================
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.python-version
+
+# =========================
+# Environment variables / secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Vector DB / local generated data
+# =========================
+**/income_tax_collection/
+**/real_estate_tax_collection/
+**/chroma/
+**/chroma_db/
+**/.chroma/
+**/vectorstore/
+**/vector_store/
+**/faiss_index/
+**/qdrant_storage/
+
+# =========================
+# Project local outputs
+# =========================
+outputs/
+output/
+logs/
+*.log
+tmp/
+temp/
+
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# =========================
+# Cache
+# =========================
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
