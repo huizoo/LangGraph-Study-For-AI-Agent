@@ -12,6 +12,7 @@ dependencies = [
     "langchain-chroma>=1.1.0",
     "langchain-community>=0.4.1",
     "langchain-openai>=1.2.1",
+    "langchain-tavily>=0.2.18",
     "langchain-text-splitters>=1.1.2",
     "langgraph>=1.1.10",
     "markdown>=3.10.2",
